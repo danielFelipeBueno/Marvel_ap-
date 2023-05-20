@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de archivos generados por el editor
+.idea/
+.vscode/
+
+# Archivos de registro y salida
+*.log
+logs/
+
+# Ambientes virtuales
+venv/
+env/
+ENV/
+
+# Dependencias instaladas
+# La carpeta pipenv se utiliza si se usa Pipenv para gestionar dependencias
+# La carpeta .venv se utiliza si se usa el módulo venv para gestionar el ambiente virtual
+# Asegúrate de utilizar solo una de las opciones y comenta o elimina la otra según sea necesario
+# pipenv/
+# .venv/
+
+# Carpeta generada al ejecutar tests
+htmlcov/
+
+# Archivos generados por coverage.py
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Archivos de configuración local
+.local/
+.env
+
+# Archivo de salida de PyInstaller
+dist/
+
+# Archivos de registros generados por FastAPI
+*.log
+
+# Archivos generados por IDEs o editores de texto
+*.swp
+*~
